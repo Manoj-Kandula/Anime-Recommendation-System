@@ -5,7 +5,7 @@ const {
   getPopularAnime,
   getSearchedAnime,
   getAnimePage,
-} = require("./animeApi");
+} = require("./animeAPI");
 
 const port = process.env.PORT || 3000;
 
