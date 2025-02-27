@@ -1,7 +1,7 @@
 const cherrio = require("cheerio");
 const axios = require("axios");
 
-const BASE_URL = "https://aniwatchtv.to/";
+const BASE_URL = "https://hianime.to/";
 
 const axiosInstance = axios.create({
   baseURL: BASE_URL,
