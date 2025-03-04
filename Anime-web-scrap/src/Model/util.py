@@ -1,5 +1,5 @@
 import pickle,sys
-with open('anime_Recommender.pickle','rb') as file:
+with open('Model/anime_Recommender.pickle','rb') as file:
     data = pickle.load(file)
     knn = data['knn']
     features_scaled = data['features_scaled']
